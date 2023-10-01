@@ -9,24 +9,29 @@ The script will install the basic and essential tools atleast i use etc.
 
 
 # How to use
-## Run script locally
+## Run the script locally
 
-1. Make it executeable
+1. Download the script
+```
+git clone https://github.com/suljov/Kali-update-and-tool-install
+```
+
+2. Make it executeable
 ```
 Sudo chmod +x kali-setup.sh
 ```
 
-2. Run the script
+3. Run the script
 ```
 sudo ./kali-setup.sh
 ```
 
-3. Using chown to make your user the owner
+4. Using chown to make your user the owner
 ```
 chown -R <user>:<user> tools
 ```
 
-## Run script using Curl
+## Run the script using Curl
 ```
 sudo curl https://raw.githubusercontent.com/suljov/Kali-update-and-tool-install/main/kali-setup.sh | bash
 ```
