@@ -163,6 +163,18 @@ done
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp Seatbelt impacket BloodHound.py BloodHound system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 php-reverse-shell tplmap XXEinjector GitDump HUNT wwwolf-php-webshell LinEnum system/linux/
 
+mkdir system/linux/dirtycow/
+
+wget https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c -O system/linux/dirtycow/
+wget https://gist.github.com/rverton/e9d4ff65d703a9084e85fa9df083c679 -O system/linux/dirtycow/cowroot.c
+wget https://gist.github.com/scumjr/17d91f20f73157c722ba2aea702985d2 -O system/linux/dirtycow/dirtycow-mem.c
+wget https://github.com/dirtycow/dirtycow.github.io/blob/master/pokemon.c -O system/linux/dirtycow/pokemon.c
+wget https://github.com/xlucas/dirtycow.cr -O system/linux/dirtycow/dirtycow.cr
+wget https://github.com/rapid7/metasploit-framework/pull/7476 -O system/linux/dirtycow/dirtycow.rb
+wget https://gist.github.com/KrE80r/42f8629577db95782d5e4f609f437a54 -O system/linux/dirtycow/c0w.c
+wget https://github.com/FireFart/dirtycow/blob/master/dirty.c -O system/linux/dirtycow/dirty.c
+
+
 
 cd ..
 sudo chown -R $USER:$USER tools
