@@ -9,7 +9,7 @@ The script will install the basic and essential tools atleast i use etc.
 
 
 # How to use
-## 1:
+## Run script localy:
 
 1. Make it executeable
 ```
@@ -26,7 +26,7 @@ sudo ./kali-setup.sh
 chown -R <user>:<user> tools
 ```
 
-## 2:
+## Run script using Curl:
 ```
 curl https://github.com/suljov/Kali-update-and-tool-install/blob/main/kali-setup.sh | bash
 ```
