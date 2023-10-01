@@ -1,7 +1,7 @@
 # Kali linux system update and tool install script. 
 
 
-This script i made for making the installation of a new Kali Linux VM:s more automatic and easier. 
+This script i made is for making the installation of a new Kali Linux more automatic and easier. 
 The script will install the basic and essential tools atleast i use etc.
 
 
@@ -24,3 +24,5 @@ sudo ./kali-setup.sh
 chown -R <user>:<user> tools
 ```
 
+
+# Tools
