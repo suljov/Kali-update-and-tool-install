@@ -9,7 +9,7 @@ The script will install the basic and essential tools atleast i use etc.
 
 
 # How to use
-## Run script localy:
+## Run script locally
 
 1. Make it executeable
 ```
