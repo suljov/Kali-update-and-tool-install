@@ -9,6 +9,8 @@ The script will install the basic and essential tools atleast i use etc.
 
 
 # How to use
+## 1:
+
 1. Make it executeable
 ```
 Sudo chmod +x kali-setup.sh
@@ -22,6 +24,11 @@ sudo ./kali-setup.sh
 3. Using chown to make your user the owner
 ```
 chown -R <user>:<user> tools
+```
+
+## 2:
+```
+curl https://github.com/suljov/Kali-update-and-tool-install/blob/main/kali-setup.sh | bash
 ```
 
 
