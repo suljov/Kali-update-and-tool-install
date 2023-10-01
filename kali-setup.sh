@@ -165,16 +165,13 @@ mv linux-exploit-suggester linux-exploit-suggester-2 php-reverse-shell tplmap XX
 
 mkdir system/linux/dirtycow/
 
-wget https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c -O system/linux/dirtycow/
-wget https://gist.github.com/rverton/e9d4ff65d703a9084e85fa9df083c679 -O system/linux/dirtycow/cowroot.c
-wget https://gist.github.com/scumjr/17d91f20f73157c722ba2aea702985d2 -O system/linux/dirtycow/dirtycow-mem.c
-wget https://github.com/dirtycow/dirtycow.github.io/blob/master/pokemon.c -O system/linux/dirtycow/pokemon.c
-wget https://github.com/xlucas/dirtycow.cr -O system/linux/dirtycow/dirtycow.cr
-wget https://github.com/rapid7/metasploit-framework/pull/7476 -O system/linux/dirtycow/dirtycow.rb
-wget https://gist.github.com/KrE80r/42f8629577db95782d5e4f609f437a54 -O system/linux/dirtycow/c0w.c
-wget https://github.com/FireFart/dirtycow/blob/master/dirty.c -O system/linux/dirtycow/dirty.c
-
-
+wget https://raw.githubusercontent.com/dirtycow/dirtycow.github.io/master/dirtyc0w.c -O system/linux/dirtycow/dirtyc0w.c
+wget https://gist.githubusercontent.com/rverton/e9d4ff65d703a9084e85fa9df083c679/raw/9b1b5053e72a58b40b28d6799cf7979c53480715/cowroot.c -O system/linux/dirtycow/cowroot.c
+wget https://gist.githubusercontent.com/scumjr/17d91f20f73157c722ba2aea702985d2/raw/a37178567ca7b816a5c6f891080770feca5c74d7/dirtycow-mem.c -O system/linux/dirtycow/dirtycow-mem.c
+wget https://raw.githubusercontent.com/dirtycow/dirtycow.github.io/master/pokemon.c -O system/linux/dirtycow/pokemon.c
+wget https://github.com/xlucas/dirtycow.cr/releases/latest/download/dirtycow-amd64 -O system/linux/dirtycow/dirtycow.cr
+wget https://gist.githubusercontent.com/KrE80r/42f8629577db95782d5e4f609f437a54/raw/71c902f55c09aa8ced351690e1e627363c231b45/c0w.c -O system/linux/dirtycow/c0w.c
+wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O system/linux/dirtycow/dirty.c
 
 cd ..
 sudo chown -R $USER:$USER tools
