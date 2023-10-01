@@ -28,7 +28,7 @@ chown -R <user>:<user> tools
 
 ## Run script using Curl:
 ```
-sudo curl https://github.com/suljov/Kali-update-and-tool-install/blob/main/kali-setup.sh | bash
+sudo curl https://raw.githubusercontent.com/suljov/Kali-update-and-tool-install/main/kali-setup.sh | bash
 ```
 
 
