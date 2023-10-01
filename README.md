@@ -26,7 +26,7 @@ sudo ./kali-setup.sh
 chown -R <user>:<user> tools
 ```
 
-## Run script using Curl:
+## Run script using Curl
 ```
 sudo curl https://raw.githubusercontent.com/suljov/Kali-update-and-tool-install/main/kali-setup.sh | bash
 ```
