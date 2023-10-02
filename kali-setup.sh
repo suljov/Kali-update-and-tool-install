@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo "Please enter your username:"
+read username
+clear
+echo "The script will now update the system and download tools"
+sleep 5
+
 mkdir tools
 cd tools
 
@@ -178,7 +184,7 @@ wget https://gist.githubusercontent.com/KrE80r/42f8629577db95782d5e4f609f437a54/
 wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O system/linux/dirtycow/dirty.c
 
 cd ..
-sudo chown -R $USER:$USER tools
+sudo chown -R $saved_username:$saved_username tools
 
 git clone https://github.com/Dewalt-arch/pimpmykali
 cd pimpmykali
