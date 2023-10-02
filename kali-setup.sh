@@ -196,6 +196,8 @@ echo "5" | sudo ./pimpmykali.sh
 cd .. 
 rm -r pimpmykali
 
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+
 sudo apt install realtek-rtl88xxau-dkms
 sudo apt install dkms
 
@@ -216,8 +218,6 @@ clear
 
 echo "Tools and repositories cloned successfully."
 echo " "
-echo "Make sure you add the tools and folders in the right folder to make it more organised"
-echo " "
 echo "Manual installs on several tools/depencies are neeed"
 echo "Recommended are:"
 echo "1. Obsidian"
@@ -230,9 +230,6 @@ echo "7. plink"
 echo "8. Enum4linux-ng"
 echo "9. postman"
 echo "10. Installing drivers for alpha wifi adapter"
-echo " "
-echo "IMPORTANT"
-echo "run 'sudo chown -R <your username>:<your username> tools' for the permissions to be correct"
 echo " "
 echo "All Done! Happy Hacking!"
 
