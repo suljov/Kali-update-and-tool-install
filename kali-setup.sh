@@ -12,10 +12,14 @@ mkdir pivoting
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas_linux_amd64 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEAS.bat 
-wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEAS.exe
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx64.exe 
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx64_ofs.exe 
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx86.exe 
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany.exe 
+
 
 mv linpeas_linux_amd64 linpeas.sh system/linux/
-mv winPEAS.bat winPEAS.exe system/windows/
+mv winPEAS.bat winPEAS.exe winPEASx64.exe winPEASx64_ofs.exe winPEASx86.exe winPEASany.exe system/windows/
 
 pip3 install kerbrute
 
