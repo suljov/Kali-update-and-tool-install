@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear
+clear
 echo "Please enter your username:"
 read username
 clear
