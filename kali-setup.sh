@@ -19,7 +19,7 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany
 
 
 mv linpeas_linux_amd64 linpeas.sh system/linux/
-mv winPEAS.bat winPEAS.exe winPEASx64.exe winPEASx64_ofs.exe winPEASx86.exe winPEASany.exe system/windows/
+mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe winPEASx86.exe winPEASany.exe system/windows/
 
 pip3 install kerbrute
 
