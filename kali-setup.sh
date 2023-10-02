@@ -184,6 +184,16 @@ echo "5" | sudo ./pimpmykali.sh
 cd .. 
 rm -r pimpmykali
 
+sudo apt install realtek-rtl88xxau-dkms
+sudo apt install dkms
+
+git clone https://github.com/aircrack-ng/rtl8812au
+cd rtl8812au/
+make
+sudo make install
+cd ..
+sudo rm -r rtl8812au/
+
 clear
 
 sudo rm -r /opt/linpeas/ 
