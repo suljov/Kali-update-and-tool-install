@@ -109,7 +109,6 @@ tools_to_install=(
     "gedit"
     "flameshot"
     "code-oss"
-    "websploit"
 
 )
 
