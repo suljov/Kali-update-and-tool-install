@@ -29,6 +29,13 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany
 mv linpeas_linux_amd64 linpeas.sh system/linux/
 mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe winPEASx86.exe winPEASany.exe system/windows/
 
+git clone https://github.com/codingo/NoSQLMap
+cd NoSQLMap
+sudo python setup.py install
+cd ..
+mv NoSQLMap/ web/
+
+
 pip3 install kerbrute
 
 git clone https://github.com/AlessandroZ/LaZagne
