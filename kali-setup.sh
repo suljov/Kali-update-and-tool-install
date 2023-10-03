@@ -29,12 +29,6 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany
 mv linpeas_linux_amd64 linpeas.sh system/linux/
 mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe winPEASx86.exe winPEASany.exe system/windows/
 
-git clone https://github.com/codingo/NoSQLMap
-cd NoSQLMap
-sudo python setup.py install
-cd ..
-mv NoSQLMap/ web/
-
 
 pip3 install kerbrute
 
@@ -181,7 +175,12 @@ done
 
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp Seatbelt impacket BloodHound.py BloodHound system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum system/linux/
-mv php-reverse-shell tplmap XXEinjector GitDump HUNT wwwolf-php-webshell web/
+
+git clone https://github.com/codingo/NoSQLMap
+cd NoSQLMap
+sudo python setup.py install
+cd ..
+mv php-reverse-shell NoSQLMap tplmap XXEinjector GitDump HUNT wwwolf-php-webshell web/
 
 mkdir system/linux/dirtycow/
 
