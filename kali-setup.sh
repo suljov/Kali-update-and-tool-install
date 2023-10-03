@@ -180,7 +180,8 @@ for url in "${repo_urls[@]}"; do
 done
 
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp Seatbelt impacket BloodHound.py BloodHound system/windows/
-mv linux-exploit-suggester linux-exploit-suggester-2 php-reverse-shell tplmap XXEinjector GitDump HUNT wwwolf-php-webshell LinEnum system/linux/
+mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum system/linux/
+mv php-reverse-shell tplmap XXEinjector GitDump HUNT wwwolf-php-webshell web/
 
 mkdir system/linux/dirtycow/
 
