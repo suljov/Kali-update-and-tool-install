@@ -207,7 +207,7 @@ sudo make install
 cd ..
 sudo rm -r rtl8812au/
 
-sudo chown -R $saved_username:$saved_username tools
+sudo chown -R $username:$username tools
 
 clear
 
