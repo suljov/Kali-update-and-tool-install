@@ -88,7 +88,8 @@ Over the tools that is already installed on Kali Linux the script will install t
 47. BloodHound.py
 48. Pimp-my-kali (pimp-my-kali script will be removed after this script has has been run)
 49. NoSQLMap
-50. libreoffice (office programs like Excel etc) 
+50. libreoffice (office programs like Excel etc)
+51. xcat
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
