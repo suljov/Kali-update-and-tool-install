@@ -25,6 +25,7 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx64
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx86.exe 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany.exe 
 
+pip3 install xcat
 
 mv linpeas_linux_amd64 linpeas.sh system/linux/
 mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe winPEASx86.exe winPEASany.exe system/windows/
