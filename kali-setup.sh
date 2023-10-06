@@ -8,6 +8,11 @@ clear
 echo "The script will now update the system and download tools"
 sleep 5
 
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt full-upgrade -y 
+sudo apt dist-upgrade -y
+
 mkdir tools
 cd tools
 
@@ -223,6 +228,11 @@ clear
 sudo rm -r /opt/linpeas/ 
 sudo rm -r /opt/mitm6/
 sudo rm -r /opt/winpeas/
+
+clear
+
+sudo apt update -y
+sudo apt upgrade -y
 
 clear
 
