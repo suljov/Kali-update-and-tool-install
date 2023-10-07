@@ -138,7 +138,9 @@ python3 -m pipx ensurepath
 
 python3 -m pipx install impacket
 
-pipx install git+https://github.com/Tib3rius/AutoRecon.git
+sudo python3 -m pipx ensurepath
+
+sudo pipx install git+https://github.com/Tib3rius/AutoRecon.git
 
 # installs all the tools with apt
 sudo apt install -y "${tools_to_install[@]}"
