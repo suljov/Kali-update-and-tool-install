@@ -32,8 +32,10 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany
 
 pip3 install xcat
 
+wget https://download.sysinternals.com/files/SysinternalsSuite.zip
+
 mv linpeas_linux_amd64 linpeas.sh system/linux/
-mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe winPEASx86.exe winPEASany.exe system/windows/
+mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe SysinternalsSuite.zip  winPEASx86.exe winPEASany.exe system/windows/
 
 
 pip3 install kerbrute
