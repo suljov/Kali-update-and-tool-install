@@ -48,11 +48,10 @@ cd ..
 mv LaZagne system/windows/
 
 wget https://github.com/SnaffCon/Snaffler/releases/latest/download/Snaffler.exe 
-wget https://download.sysinternals.com/files/Procdump.zip
 wget https://github.com/itm4n/PrintSpoofer/releases/latest/download/PrintSpoofer32.exe 
 wget https://github.com/itm4n/PrintSpoofer/releases/latest/download/PrintSpoofer64.exe 
 
-mv Snaffler.exe Procdump.zip PrintSpoofer32.exe PrintSpoofer64.exe system/windows/
+mv Snaffler.exe PrintSpoofer32.exe PrintSpoofer64.exe system/windows/
 
 mkdir potato
 cd potato
