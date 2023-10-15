@@ -239,6 +239,10 @@ sudo apt upgrade -y
 
 clear
 
+go install github.com/ropnop/kerbrute@latest
+
+clear
+
 echo "Tools and repositories cloned successfully."
 echo " "
 echo "Manual installs on several tools/depencies are neeed"
