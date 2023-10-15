@@ -91,6 +91,7 @@ Over the tools that is already installed on Kali Linux the script will install t
 50. libreoffice (office programs like Excel etc)
 51. xcat
 52. sysinternalsuite
+53. kerbrute
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
