@@ -227,8 +227,6 @@ sudo make install
 cd ..
 sudo rm -r rtl8812au/
 
-sudo chown -R $username:$username tools
-
 clear
 
 sudo rm -r /opt/linpeas/ 
@@ -245,6 +243,11 @@ clear
 go install github.com/ropnop/kerbrute@latest
 
 clear
+
+sudo chown -R $username:$username tools
+
+clear
+
 
 echo "Tools and repositories cloned successfully."
 echo " "
