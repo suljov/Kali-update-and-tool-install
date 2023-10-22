@@ -31,6 +31,8 @@ sudo ./kali-setup.sh
 sudo curl https://raw.githubusercontent.com/suljov/Kali-update-and-tool-install/main/kali-setup.sh | bash
 ```
 
+
+## Folder permission problem
 If error with permissions on the folder "tools", use chown to make your user the owner (this is done in the script but may cause problem) 
 ```
 chown -R <user>:<user> tools
