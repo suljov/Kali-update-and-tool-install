@@ -26,15 +26,16 @@ Sudo chmod +x kali-setup.sh
 sudo ./kali-setup.sh
 ```
 
-4. Using chown to make your user the owner
-```
-chown -R <user>:<user> tools
-```
-
 ## Run the script using Curl
 ```
 sudo curl https://raw.githubusercontent.com/suljov/Kali-update-and-tool-install/main/kali-setup.sh | bash
 ```
+
+If error with permissions on the folder "tools", use chown to make your user the owner (this is done in the script but may cause problem) 
+```
+chown -R <user>:<user> tools
+```
+
 
 
 # Tools
