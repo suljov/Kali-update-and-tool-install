@@ -120,6 +120,7 @@ tools_to_install=(
     "flameshot"
     "code-oss"
     "libreoffice"
+    "subfinder"
 
 )
 
