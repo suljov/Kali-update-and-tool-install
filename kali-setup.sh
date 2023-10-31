@@ -125,10 +125,10 @@ tools_to_install=(
 
 )
 
-# Install the tools using apt
+
 echo "Installing tools using apt..."
 
-# updates the system
+
 sudo apt install apt-transport-https
 sudo apt update -y
 sudo apt upgrade -y
@@ -223,7 +223,6 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
 sudo apt install realtek-rtl88xxau-dkms
 sudo apt install dkms
-
 git clone https://github.com/aircrack-ng/rtl8812au
 cd rtl8812au/
 make
@@ -249,6 +248,11 @@ sudo mv /usr/bin/httpx /usr/bin/httpx-bak
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 clear
+
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt full-upgrade -y 
+sudo apt dist-upgrade -y
 
 sudo chown -R $username:$username tools
 
