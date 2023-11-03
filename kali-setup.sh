@@ -180,6 +180,7 @@ repo_urls=(
     "https://github.com/BloodHoundAD/BloodHound"
     "https://github.com/Jewel591/xssmap"
     "https://github.com/ticarpi/jwt_tool"
+    "https://github.com/hansmach1ne/LFImap"
     
 )
 
@@ -197,7 +198,7 @@ git clone https://github.com/codingo/NoSQLMap
 cd NoSQLMap
 sudo python setup.py install
 cd ..
-mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool GitDump HUNT wwwolf-php-webshell web/
+mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool GitDump HUNT LFImap wwwolf-php-webshell web/
 
 mkdir system/linux/dirtycow/
 
