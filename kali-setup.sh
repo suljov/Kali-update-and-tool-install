@@ -8,10 +8,8 @@ clear
 echo "The script will now update the system and download tools"
 sleep 5
 
-sudo apt update -y
-sudo apt upgrade -y
+sudo apt update
 sudo apt full-upgrade -y 
-sudo apt dist-upgrade -y
 
 mkdir tools
 cd tools
@@ -130,10 +128,7 @@ echo "Installing tools using apt..."
 
 
 sudo apt install apt-transport-https
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt full-upgrade -y 
-sudo apt dist-upgrade -y
+
 
 # extra command to make sure autorecon works
 sudo apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
@@ -150,8 +145,7 @@ sudo pipx install git+https://github.com/Tib3rius/AutoRecon.git
 
 # installs all the tools with apt
 sudo apt install -y "${tools_to_install[@]}"
-sudo apt update -y
-sudo apt upgrade -y
+
 
 # GitHub repository URLs
 repo_urls=(
@@ -237,10 +231,7 @@ sudo rm -r /opt/linpeas/
 sudo rm -r /opt/mitm6/
 sudo rm -r /opt/winpeas/
 
-clear
 
-sudo apt update -y
-sudo apt upgrade -y
 
 clear
 
@@ -250,10 +241,7 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 clear
 
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt full-upgrade -y 
-sudo apt dist-upgrade -y
+
 
 sudo chown -R $username:$username tools
 
