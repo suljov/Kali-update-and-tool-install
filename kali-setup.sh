@@ -214,7 +214,7 @@ echo "5" | sudo ./pimpmykali.sh
 cd .. 
 rm -r pimpmykali
 
-go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+sudo apt install nuclei
 
 sudo apt install realtek-rtl88xxau-dkms
 sudo apt install dkms
