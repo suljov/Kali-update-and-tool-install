@@ -196,7 +196,10 @@ git clone https://github.com/codingo/NoSQLMap
 cd NoSQLMap
 sudo python setup.py install
 cd ..
-mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool GitDump HUNT LFImap wwwolf-php-webshell web/
+
+git clone https://github.com/commixproject/commix
+
+mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool GitDump HUNT LFImap wwwolf-php-webshell commix web/
 
 mkdir system/linux/dirtycow/
 
