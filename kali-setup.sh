@@ -19,6 +19,10 @@ mkdir system
 mkdir system/linux
 mkdir system/windows
 mkdir pivoting
+mkdir misc
+
+git clone https://github.com/cddmp/enum4linux-ng
+mv enum4linux-ng misc/
 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas_linux_amd64 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
