@@ -21,8 +21,7 @@ mkdir system/windows
 mkdir pivoting
 mkdir misc
 
-git clone https://github.com/cddmp/enum4linux-ng
-mv enum4linux-ng misc/
+
 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas_linux_amd64 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
@@ -124,6 +123,7 @@ tools_to_install=(
     "code-oss"
     "libreoffice"
     "subfinder"
+    "enum4linux-ng"
 
 )
 
