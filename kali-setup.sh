@@ -43,7 +43,9 @@ wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1
 sudo dpkg -i rustscan_2.0.1_amd64.deb
 sudo rm rustscan_2.0.1_amd64.deb
 
-pip3 install kerbrute
+wget https://github.com/ropnop/kerbrute/releases/latest/download/kerbrute_linux_amd64
+chmod +x kerbrute_linux_amd64
+sudo mv kerbrute_linux_amd64 /usr/bin/kerbrute
 
 git clone https://github.com/AlessandroZ/LaZagne
 cd LaZagne
