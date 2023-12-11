@@ -107,6 +107,7 @@ Over the tools that is already installed on Kali Linux the script will install t
 61. enum4linux-ng
 62. commix
 63. NetExec (crackmap is now deprecated)
+64. docker
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
