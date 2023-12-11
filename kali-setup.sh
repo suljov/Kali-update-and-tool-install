@@ -11,6 +11,9 @@ sleep 5
 sudo apt update
 sudo apt full-upgrade -y 
 
+sudo apt install -y docker.io
+sudo systemctl enable docker --now
+
 mkdir tools
 cd tools
 
