@@ -68,6 +68,7 @@ cd potato
 git clone https://github.com/breenmachine/RottenPotatoNG
 git clone https://github.com/antonioCoco/RoguePotato
 git clone https://github.com/ohpe/juicy-potato
+wget https://github.com/ivanitlearning/Juicy-Potato-x86/releases/download/1.2/Juicy.Potato.x86.exe
 git clone https://github.com/CCob/SweetPotato
 wget https://github.com/ohpe/juicy-potato/releases/latest/download/JuicyPotato.exe 
 cd ..
