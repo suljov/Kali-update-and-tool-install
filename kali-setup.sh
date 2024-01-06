@@ -178,7 +178,6 @@ repo_urls=(
     "https://github.com/pentestmonkey/php-reverse-shell"
     "https://github.com/epinna/tplmap"
     "https://github.com/enjoiz/XXEinjector"
-    "https://github.com/Ebryx/GitDump"
     "https://github.com/bugcrowd/HUNT"
     "https://github.com/WhiteWinterWolf/wwwolf-php-webshell"
     "https://github.com/GhostPack/SharpUp"
@@ -209,7 +208,7 @@ cd ..
 
 git clone https://github.com/commixproject/commix
 
-mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool GitDump HUNT LFImap wwwolf-php-webshell commix web/
+mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell commix web/
 
 mkdir system/linux/dirtycow/
 
@@ -221,7 +220,7 @@ wget https://github.com/xlucas/dirtycow.cr/releases/latest/download/dirtycow-amd
 wget https://gist.githubusercontent.com/KrE80r/42f8629577db95782d5e4f609f437a54/raw/71c902f55c09aa8ced351690e1e627363c231b45/c0w.c -O system/linux/dirtycow/c0w.c
 wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O system/linux/dirtycow/dirty.c
 
-
+pip install git-dumper
 
 git clone https://github.com/Dewalt-arch/pimpmykali
 cd pimpmykali
