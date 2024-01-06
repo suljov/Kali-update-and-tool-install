@@ -84,7 +84,7 @@ Over the tools that is already installed on Kali Linux the script will install t
 38. php-reverse-shell
 39. tplmap
 40. XXEinjector
-41. GitDump
+41. git-dumper
 42. HUNT (Burp Suite extensions)
 43. wwwolf-php-webshell
 44. SharpUp
