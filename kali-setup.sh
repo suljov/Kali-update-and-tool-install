@@ -188,6 +188,8 @@ repo_urls=(
     "https://github.com/Jewel591/xssmap"
     "https://github.com/ticarpi/jwt_tool"
     "https://github.com/hansmach1ne/LFImap"
+    "https://github.com/flozz/p0wny-shell.git"
+    "https://github.com/merttasci/csrf-poc-generator.git"
     
 )
 
@@ -208,7 +210,9 @@ cd ..
 
 git clone https://github.com/commixproject/commix
 
-mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell commix web/
+wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.63.7/trufflehog_3.63.7_linux_arm64.tar.gz
+
+mv php-reverse-shell NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell commix web/
 
 mkdir system/linux/dirtycow/
 
