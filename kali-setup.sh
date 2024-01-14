@@ -265,6 +265,13 @@ clear
 
 sudo chown -R $username:$username tools
 
+
+echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> ~/.bashrc
+
+echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> ~/.zshrc
+
+
+
 clear
 
 
