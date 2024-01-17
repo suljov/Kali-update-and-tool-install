@@ -278,6 +278,22 @@ export PATH=\$HOME/\$GOPATH/bin:\$HOME/\$GOROOT/bin:\$PATH
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export PATH=$PATH:/$HOME/.local/bin
 
+echo "export GOROOT=/usr/lib/go" >> .zshrc
+echo "export GOPATH=$HOME/go" >> .zshrc
+echo "export GOPATH=\$HOME/$GO_PATH" >> 
+echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> .zshrc
+echo "export PATH=\$HOME/\$GOPATH/bin:\$HOME/\$GOROOT/bin:\$PATH" >> .zshrc
+echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> .zshrc
+echo "export PATH=$PATH:/$HOME/.local/bin" >> .zshrc
+
+echo "export GOROOT=/usr/lib/go" >> .bashrc
+echo "export GOPATH=$HOME/go" >> .bashrc
+echo "export GOPATH=\$HOME/$GO_PATH" >> .bashrc
+echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> .bashrc
+echo "export PATH=\$HOME/\$GOPATH/bin:\$HOME/\$GOROOT/bin:\$PATH" >> .bashrc
+echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> .bashrc
+echo "export PATH=$PATH:/$HOME/.local/bin" >> .bashrc
+
 clear
 
 
