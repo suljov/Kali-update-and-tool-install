@@ -276,7 +276,7 @@ export GOPATH=\$HOME/$GO_PATH
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH=\$HOME/\$GOPATH/bin:\$HOME/\$GOROOT/bin:\$PATH
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-export PATH=$PATH:/$HOME/suljov/.local/bin
+export PATH=$PATH:/$HOME/.local/bin
 
 clear
 
