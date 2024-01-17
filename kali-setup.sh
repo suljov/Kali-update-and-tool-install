@@ -295,20 +295,10 @@ clear
 echo "Tools and repositories cloned successfully."
 echo " "
 echo "Manual installs on several tools/depencies are neeed"
-echo "Recommended are:"
-echo "1. Obsidian"
-echo "2. postman"
-echo "3. PwnKit"
-echo "4. Enum4linux-ng"
-echo "5. Printnightmare"
-echo "6. chisel"
-echo "7. plink"
-echo "8. Installing drivers for alpha wifi adapter"
 echo " "
 echo "All Done! Happy Hacking!"
 
 
-
-
-
+sleep 5
+reset
 
