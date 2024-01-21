@@ -213,7 +213,7 @@ git clone https://github.com/commixproject/commix
 
 wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.63.7/trufflehog_3.63.7_linux_arm64.tar.gz
 
-mv php-reverse-shell NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell commix web/
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell commix web/
 
 mkdir system/linux/dirtycow/
 
