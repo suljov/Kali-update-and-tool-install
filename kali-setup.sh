@@ -9,8 +9,16 @@ clear
 echo "The script will now update the system and download tools"
 sleep 5
 
-sudo apt update
+sudo apt update -y
 sudo apt full-upgrade -y 
+
+sudo apt update --fix-missing
+sudo apt upgrade --fix-missing
+
+
+sudo apt install pipx
+sudo apt install nmap
+sudo apt install sqlmap
 
 sudo apt install -y docker.io
 sudo systemctl enable docker --now
