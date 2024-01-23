@@ -278,9 +278,9 @@ export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin
 echo "export GOROOT=/usr/lib/go" >> .zshrc
 echo "export GOPATH=$HOME/go" >> .zshrc
 echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .zshrc
-echo "export PATH=$HOME/.local/bin:$PATH" > .zshrc
+echo "export PATH=$HOME/.local/bin:$PATH" >> .zshrc
 
-echo "export PATH=$HOME/.local/bin:$PATH" > .bashrc
+echo "export PATH=$HOME/.local/bin:$PATH" >> .bashrc
 echo "export GOROOT=/usr/lib/go" >> .bashrc
 echo "export GOPATH=$HOME/go" >> .bashrc
 echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .bashrc
