@@ -16,6 +16,26 @@ sudo apt update --fix-missing
 sudo apt upgrade --fix-missing
 
 
+
+export PATH=$HOME/.local/bin:$PATH
+export GOROOT=/usr/lib/go
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin
+
+
+
+echo "export GOROOT=/usr/lib/go" >> .zshrc
+echo "export GOPATH=$HOME/go" >> .zshrc
+echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .zshrc
+echo "export PATH=$HOME/.local/bin:$PATH" >> .zshrc
+
+echo "export PATH=$HOME/.local/bin:$PATH" >> .bashrc
+echo "export GOROOT=/usr/lib/go" >> .bashrc
+echo "export GOPATH=$HOME/go" >> .bashrc
+echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .bashrc
+
+
+
 sudo apt install pipx
 sudo apt install nmap
 sudo apt install sqlmap
@@ -152,6 +172,7 @@ sudo apt install apt-transport-https
 sudo apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
 apt install pipx git
+sudo apt install pipx git
 pipx ensurepath
 sudo apt install python3-venv
 python3 -m pip install --user pipx
@@ -276,22 +297,7 @@ sudo chown -R $username:$username tools
 
 
 
-export PATH=$HOME/.local/bin:$PATH
-export GOROOT=/usr/lib/go
-export GOPATH=$HOME/go
-export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin
 
-
-
-echo "export GOROOT=/usr/lib/go" >> .zshrc
-echo "export GOPATH=$HOME/go" >> .zshrc
-echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .zshrc
-echo "export PATH=$HOME/.local/bin:$PATH" >> .zshrc
-
-echo "export PATH=$HOME/.local/bin:$PATH" >> .bashrc
-echo "export GOROOT=/usr/lib/go" >> .bashrc
-echo "export GOPATH=$HOME/go" >> .bashrc
-echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .bashrc
 
 
 
