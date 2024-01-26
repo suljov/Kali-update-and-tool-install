@@ -293,17 +293,13 @@ go install github.com/ropnop/kerbrute@latest
 sudo mv /usr/bin/httpx /usr/bin/httpx-bak
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
+go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
+
 clear
 
 
 
 sudo chown -R $username:$username tools
-
-
-
-
-
-
 
 
 
