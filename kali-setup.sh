@@ -16,9 +16,7 @@ sudo apt update --fix-missing
 sudo apt upgrade --fix-missing
 sudo apt --fix-broken install
 
-
-
-export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin
+export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
 
