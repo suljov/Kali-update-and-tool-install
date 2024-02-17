@@ -308,7 +308,13 @@ clear
 
 sudo chown -R $username:$username tools
 
+cd /tmp
+git clone https://github.com/xct/kali-clean
+cd kali-clean
+./install.sh
 
+cd 
+rm -r /tmp/kali-clean
 
 
 
