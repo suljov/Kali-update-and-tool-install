@@ -68,13 +68,14 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx64
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx86.exe 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany.exe 
 wget https://raw.githubusercontent.com/Tib3rius/windowsprivchecker/master/windowsprivchecker.bat
+https://github.com/itm4n/FullPowers/releases/latest/download/FullPowers.exe
 
 pip3 install xcat
 
 wget https://download.sysinternals.com/files/SysinternalsSuite.zip
 
 mv linpeas_linux_amd64 linpeas.sh system/linux/
-mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe SysinternalsSuite.zip  winPEASx86.exe winPEASany.exe windowsprivchecker.bat system/windows/
+mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe SysinternalsSuite.zip  winPEASx86.exe winPEASany.exe FullPowers.exe windowsprivchecker.bat system/windows/
 
 wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb
 sudo dpkg -i rustscan_2.0.1_amd64.deb
