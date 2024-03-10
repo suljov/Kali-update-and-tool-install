@@ -118,9 +118,9 @@ mv AccessChk.zip system/windows/
 mkdir ligolo-ng
 cd ligolo-ng
 mkdir proxy
-mkdir agen
+mkdir agent
 git clone https://github.com/nicocha30/ligolo-ng
-cd agen
+cd agent
 wget https://github.com/nicocha30/ligolo-ng/releases/latest/download/ligolo-ng_agent_0.4.4_linux_amd64.tar.gz 
 wget https://github.com/nicocha30/ligolo-ng/releases/latest/download/ligolo-ng_agent_0.4.4_windows_amd64.zip 
 cd ..
@@ -313,13 +313,7 @@ clear
 
 sudo chown -R $username:$username tools
 
-cd /tmp
-git clone https://github.com/xct/kali-clean
-cd kali-clean
-./install.sh
 
-cd 
-rm -r /tmp/kali-clean
 
 
 
