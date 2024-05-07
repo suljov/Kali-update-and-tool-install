@@ -237,6 +237,7 @@ repo_urls=(
     "https://github.com/Greenwolf/ntlm_theft"
     "https://github.com/CravateRouge/bloodyAD"
     "https://github.com/dirkjanm/krbrelayx"
+    "https://github.com/assetnote/kiterunner"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -258,7 +259,13 @@ git clone https://github.com/commixproject/commix
 
 wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.63.7/trufflehog_3.63.7_linux_arm64.tar.gz
 
-mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell commix web/
+cd kiterunner
+sudo make build
+cd ..
+sudo cp kiterunner/dist/kr /usr/bin/kr
+
+
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell kiterunner commix web/
 
 mkdir system/linux/dirtycow/
 
