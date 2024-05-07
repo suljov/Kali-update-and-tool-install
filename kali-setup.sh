@@ -326,6 +326,16 @@ sudo chown -R $username:$username tools
 
 clear
 
+cd /usr/share/wordlists
+
+sudo wget https://wordlists-cdn.assetnote.io/data/kiterunner/routes-large.kite.tar.gz
+sudo sudo wget https://wordlists-cdn.assetnote.io/rawdata/kiterunner/swagger-files.tar
+
+sudo tar -xvf routes-large.kite.tar.gz
+sudo tar -xvf swagger-files.tar
+
+clear
+
 
 echo "Tools and repositories cloned successfully."
 echo " "
