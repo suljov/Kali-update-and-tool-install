@@ -166,6 +166,7 @@ tools_to_install=(
     "libreoffice"
     "subfinder"
     "enum4linux-ng"
+    "cupp"
 )
 
 
