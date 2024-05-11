@@ -326,6 +326,8 @@ git clone https://github.com/urbanadventurer/username-anarchy
 cd username-anarchy
 sudo cp username-anarchy /usr/bin/username-anarchy
 sudo cp format-plugins.rb /usr/bin/format-plugins.rb
+cd .. 
+rm -r username-anarchy
 
 
 
