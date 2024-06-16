@@ -24,10 +24,12 @@ export GOPATH=$HOME/go
 
 echo "export GOROOT=/usr/lib/go" >> /home/$username/.zshrc
 echo "export GOPATH=$HOME/go" >> /home/$username/.zshrc
+echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.zshrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.zshrc
 
 echo "export GOROOT=/usr/lib/go" >> /home/$username/.bashrc
 echo "export GOPATH=$HOME/go" >> /home/$username/.bashrc
+echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.bashrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.bashrc
 
 
