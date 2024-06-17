@@ -20,7 +20,7 @@ git clone https://github.com/suljov/Kali-update-and-tool-install
 
 2. Make it executeable
 ```
-Sudo chmod +x kali-setup.sh
+sudo chmod +x kali-setup.sh
 ```
 
 3. Run the script
