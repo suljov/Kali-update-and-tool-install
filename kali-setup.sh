@@ -2,19 +2,7 @@
 
 
 clear
-clear
-echo "Please enter your username:"
-read username
-clear
-echo "The script will now update the system and download tools"
-sleep 2
 
-sudo apt update -y
-sudo apt full-upgrade -y 
-
-sudo apt update --fix-missing
-sudo apt upgrade --fix-missing
-sudo apt --fix-broken install
 
 export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME
 export GOROOT=/usr/lib/go
@@ -33,6 +21,24 @@ echo "export GOPATH=$HOME/go" >> /home/$username/.bashrc
 echo "export GOPATH=$username/go" >> /home/$username/.bashrc
 echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.bashrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.bashrc
+
+
+clear
+clear
+echo "Please enter your username:"
+read username
+clear
+echo "The script will now update the system and download tools"
+sleep 2
+
+sudo apt update -y
+sudo apt full-upgrade -y 
+
+sudo apt update --fix-missing
+sudo apt upgrade --fix-missing
+sudo apt --fix-broken install
+
+
 
 
 
