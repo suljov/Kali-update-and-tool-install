@@ -3,6 +3,9 @@
 
 clear
 
+wget https://raw.githubusercontent.com/jazzpizazz/zsh-aliases/main/aliases.zsh -o ~/aliases.zsh
+echo "source ~/aliases.zsh" >> ~/.zshrc
+
 
 export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME
 export GOROOT=/usr/lib/go
