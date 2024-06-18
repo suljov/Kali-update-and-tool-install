@@ -17,13 +17,16 @@
 ```
 git clone https://github.com/suljov/Kali-update-and-tool-install
 ```
-
-2. Make it executeable
+2. Move the script
+```
+mv Kali-update-and-tool-install/kali-setup.sh .
+```
+3. Make it executeable
 ```
 chmod +x kali-setup.sh
 ```
 
-3. Run the script
+4. Run the script
 ```
 ./kali-setup.sh
 ```
