@@ -306,7 +306,7 @@ echo "5" | sudo ./pimpmykali.sh
 cd .. 
 rm -r pimpmykali
 
-sudo apt install nuclei
+sudo apt install nuclei -y
 
 sudo apt install realtek-rtl88xxau-dkms -y
 sudo apt install dkms -y
