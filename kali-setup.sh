@@ -211,7 +211,7 @@ python3 -m venv .
 source bin/activate
 pip install .
 cd ..
-rm -r NetExec
+sudo rm -r NetExec
 
 python3 -m pipx install impacket
 
@@ -304,7 +304,7 @@ echo "1" | sudo ./pimpmykali.sh
 echo "3" | sudo ./pimpmykali.sh
 echo "5" | sudo ./pimpmykali.sh
 cd .. 
-rm -r pimpmykali
+sudo rm -r pimpmykali
 
 sudo apt install nuclei -y
 
@@ -346,7 +346,7 @@ cd username-anarchy
 sudo cp username-anarchy /usr/bin/username-anarchy
 sudo cp format-plugins.rb /usr/bin/format-plugins.rb
 cd .. 
-rm -r username-anarchy
+sudo rm -r username-anarchy
 
 
 
