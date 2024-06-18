@@ -34,7 +34,7 @@ echo "export GOROOT=/usr/lib/go" >> /home/$username/.bashrc
 echo "export GOPATH=$HOME/go" >> /home/$username/.bashrc
 echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.bashrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.bashrc
-echo "neofetch" >> /home/$username/.zshrc
+echo "neofetch" >> /home/$username/.bashrc
 
 
 
