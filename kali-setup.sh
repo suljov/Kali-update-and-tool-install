@@ -47,7 +47,7 @@ sudo apt --fix-broken install
 
 
 
-
+sudo apt install xclip
 sudo apt install pipx
 sudo apt install nmap
 sudo apt install sqlmap
