@@ -3,14 +3,16 @@
 
 clear
 
+echo "## from setup script" >> /home/$username/.zshrc
+echo "## from setup script" >> /home/$username/.bashrc
 wget https://raw.githubusercontent.com/jazzpizazz/zsh-aliases/main/aliases.zsh -o ~/aliases.zsh
 echo "source ~/aliases.zsh" >> ~/.zshrc
+echo "source ~/aliases.zsh" >> ~/.bashrc
 
 
 export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
-
 
 
 echo "export GOROOT=/usr/lib/go" >> /home/$username/.zshrc
