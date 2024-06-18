@@ -20,17 +20,17 @@ git clone https://github.com/suljov/Kali-update-and-tool-install
 
 2. Make it executeable
 ```
-sudo chmod +x kali-setup.sh
+chmod +x kali-setup.sh
 ```
 
 3. Run the script
 ```
-sudo ./kali-setup.sh
+./kali-setup.sh
 ```
 
 ## Run the script using Curl
 ```
-sudo curl https://raw.githubusercontent.com/suljov/Kali-update-and-tool-install/main/kali-setup.sh | bash
+curl https://raw.githubusercontent.com/suljov/Kali-update-and-tool-install/main/kali-setup.sh | bash
 ```
 
 
