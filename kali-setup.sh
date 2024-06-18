@@ -43,18 +43,18 @@ echo "neofetch" >> /home/$username/.zshrc
 sudo apt update -y
 sudo apt full-upgrade -y 
 
-sudo apt update --fix-missing
-sudo apt upgrade --fix-missing
-sudo apt --fix-broken install
+sudo apt update --fix-missing -y
+sudo apt upgrade --fix-missing -y
+sudo apt --fix-broken install -y
 
 
-sudo apt install neofetch
-sudo apt install xclip
-sudo apt install pipx
-sudo apt install nmap
-sudo apt install sqlmap
+sudo apt install neofetch -y
+sudo apt install xclip -y
+sudo apt install pipx -y
+sudo apt install nmap -y
+sudo apt install sqlmap -y
 
-sudo apt install -y docker.io
+sudo apt install -y docker.io -y
 sudo systemctl enable docker --now
 
 mkdir tools
@@ -165,7 +165,7 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | 
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install sublime-text
+sudo apt install sublime-text -y
 
 # List of tools to install using apt
 tools_to_install=(
@@ -191,16 +191,16 @@ tools_to_install=(
 echo "Installing tools using apt..."
 
 
-sudo apt install apt-transport-https
+sudo apt install apt-transport-https -y
 
 
 # extra command to make sure autorecon works
 sudo apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
-apt install pipx git
-sudo apt install pipx git
+apt install pipx git -y
+sudo apt install pipx git -y
 pipx ensurepath
-sudo apt install python3-venv
+sudo apt install python3-venv -y
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
@@ -220,7 +220,7 @@ sudo python3 -m pipx ensurepath
 sudo pipx install git+https://github.com/Tib3rius/AutoRecon.git
 
 # installs all the tools with apt
-sudo apt install -y "${tools_to_install[@]}"
+sudo apt install "${tools_to_install[@]}" -y
 
 
 # GitHub repository URLs
@@ -308,8 +308,8 @@ rm -r pimpmykali
 
 sudo apt install nuclei
 
-sudo apt install realtek-rtl88xxau-dkms
-sudo apt install dkms
+sudo apt install realtek-rtl88xxau-dkms -y
+sudo apt install dkms -y
 git clone https://github.com/aircrack-ng/rtl8812au
 cd rtl8812au/
 make
