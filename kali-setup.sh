@@ -2,6 +2,15 @@
 
 
 clear
+clear
+echo "Please enter your username:"
+read username
+clear
+echo "The script will now update the system and download tools"
+sleep 2
+
+
+clear
 
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
@@ -26,13 +35,7 @@ echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.bashrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.bashrc
 
 
-clear
-clear
-echo "Please enter your username:"
-read username
-clear
-echo "The script will now update the system and download tools"
-sleep 2
+
 
 sudo apt update -y
 sudo apt full-upgrade -y 
