@@ -14,7 +14,7 @@ clear
 
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
-wget https://raw.githubusercontent.com/jazzpizazz/zsh-aliases/main/aliases.zsh -o ~/aliases.zsh
+wget https://raw.githubusercontent.com/jazzpizazz/zsh-aliases/main/aliases.zsh -O ~/aliases.zsh
 echo "source ~/aliases.zsh" >> ~/.zshrc
 echo "source ~/aliases.zsh" >> ~/.bashrc
 
