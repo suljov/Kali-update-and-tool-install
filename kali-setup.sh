@@ -14,9 +14,10 @@ clear
 
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
-wget https://raw.githubusercontent.com/jazzpizazz/zsh-aliases/main/aliases.zsh -O ~/aliases.zsh
-echo "source ~/aliases.zsh" >> ~/.zshrc
-echo "source ~/aliases.zsh" >> ~/.bashrc
+git clone https://github.com/jazzpizazz/zsh-aliases
+mv zsh-aliases  ~/zsh-aliases
+echo "source ~/zsh-aliases/aliases.zsh" >> ~/.zshrc
+echo "source ~/zsh-aliases/aliases.zsh" >> ~/.bashrc
 
 
 export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME
