@@ -206,6 +206,9 @@ sudo apt install python3-venv -y
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
+apt install python3 python3-pip -y
+sudo apt install python3 python3-pip
+
 pipx install git+https://github.com/Pennyw0rth/NetExec
 git clone https://github.com/Pennyw0rth/NetExec
 cd NetExec
@@ -215,10 +218,9 @@ pip install .
 cd ..
 sudo rm -r NetExec
 
+
 python3 -m pipx install impacket
-
 sudo python3 -m pipx ensurepath
-
 sudo pipx install git+https://github.com/Tib3rius/AutoRecon.git
 
 # installs all the tools with apt
