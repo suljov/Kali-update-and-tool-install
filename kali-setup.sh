@@ -261,6 +261,7 @@ repo_urls=(
     "https://github.com/CravateRouge/bloodyAD"
     "https://github.com/dirkjanm/krbrelayx"
     "https://github.com/assetnote/kiterunner"
+    "https://github.com/powershellmafia/powersploit"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -270,7 +271,7 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp Seatbelt bloodyAD krbrelayx impacket BloodHound.py BloodHound system/windows/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp Seatbelt bloodyAD krbrelayx impacket BloodHound.py BloodHound powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum system/linux/
 
 git clone https://github.com/codingo/NoSQLMap
