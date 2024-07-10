@@ -55,6 +55,9 @@ sudo apt install pipx -y
 sudo apt install nmap -y
 sudo apt install sqlmap -y
 sudo apt install libx11-dev libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev libglx-dev libgl1-mesa-dev libxxf86vm-dev -y
+sudo apt-get install libkrb5-dev -y
+pip3 install bloodyAD
+
 
 sudo apt install -y docker.io -y
 sudo systemctl enable docker --now
