@@ -78,6 +78,11 @@ cd c2
 git clone https://github.com/BishopFox/sliver.git
 cd sliver
 make
+sudo cp sliver-server /usr/local/bin/sliver-server
+sudo cp sliver-client /usr/local/bin/sliver
+sudo chmod 755 /usr/local/bin/sliver-server
+sudo chmod 755 /usr/local/bin/sliver
+sliver-server unpack --force
 cd ..
 cd ..
 
