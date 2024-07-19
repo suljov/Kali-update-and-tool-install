@@ -371,7 +371,7 @@ sudo cp username-anarchy /usr/bin/username-anarchy
 sudo cp format-plugins.rb /usr/bin/format-plugins.rb
 cd .. 
 sudo rm -r username-anarchy
-
+sudo python3 -m pip install apachetomcatscanner
 
 
 clear
