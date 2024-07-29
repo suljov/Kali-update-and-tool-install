@@ -102,37 +102,38 @@ Over the tools that is already installed on Kali Linux the script will install t
 53. kerbrute
 54. rustscan (2.0.1)
 55. subfinder
-56. windowsprivchecker.bat
-57. xssmap
-58. httpx
-59. jwt_tool
-60. lfimap
-61. enum4linux-ng
-62. commix
-63. NetExec (crackmap is now deprecated)
-64. docker
-65. p0wny-shell
-66. csrf-poc-generator
-67. trufflehog
-68. GLPIScan
-69. cvemap (API key needed to be setup up by user)
-70. Sliver (C2)
-71. kali-clean (script from xct github about kali desktop setup)
-72. ntlm_theft
-73. krbrelayx
-74. bloodyAD
-75. FullPowers
-76. RunasCs
-77. Kiterunner
-78. username-anarchy
-79. cupp
-80. powersploit (powerview, powerup etc)
-81. SharpCollection
-82. Donut
-83. Godpotato
-84. PrecompiledBinaries
-85. apachetomcatscanner
-86. reconrunner (by me)
+56. windowsprivchecker
+57. linuxprivchecker
+58. xssmap
+59. httpx
+60. jwt_tool
+61. lfimap
+62. enum4linux-ng
+63. commix
+64. NetExec (crackmap is now deprecated)
+65. docker
+66. p0wny-shell
+67. csrf-poc-generator
+68. trufflehog
+69. GLPIScan
+70. cvemap (API key needed to be setup up by user)
+71. Sliver (C2)
+72. kali-clean (script from xct github about kali desktop setup)
+73. ntlm_theft
+74. krbrelayx
+75. bloodyAD
+76. FullPowers
+77. RunasCs
+78. Kiterunner
+79. username-anarchy
+80. cupp
+81. powersploit (powerview, powerup etc)
+82. SharpCollection
+83. Donut
+84. Godpotato
+85. PrecompiledBinaries
+86. apachetomcatscanner
+87. reconrunner (by me)
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
