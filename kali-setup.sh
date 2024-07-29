@@ -96,7 +96,6 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx64
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx86.exe 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany.exe
 wget https://github.com/antonioCoco/RunasCs/releases/latest/download/RunasCs.zip
-wget https://raw.githubusercontent.com/Tib3rius/windowsprivchecker/master/windowsprivchecker.bat
 https://github.com/itm4n/FullPowers/releases/latest/download/FullPowers.exe
 
 pip3 install xcat
@@ -104,7 +103,7 @@ pip3 install xcat
 wget https://download.sysinternals.com/files/SysinternalsSuite.zip
 
 mv linpeas_linux_amd64 linpeas.sh system/linux/
-mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe SysinternalsSuite.zip  winPEASx86.exe winPEASany.exe RunasCs.zip FullPowers.exe windowsprivchecker.bat system/windows/
+mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe SysinternalsSuite.zip  winPEASx86.exe winPEASany.exe RunasCs.zip FullPowers.exe  system/windows/
 
 wget https://github.com/RustScan/RustScan/releases/download/2.2.3/rustscan_2.2.3_amd64.deb
 sudo dpkg -i rustscan_2.2.3_amd64.deb
@@ -273,6 +272,8 @@ repo_urls=(
     "https://github.com/TheWover/donut.git"
     "https://github.com/Flangvik/SharpCollection"
     "https://github.com/jtmpu/PrecompiledBinaries"
+    "https://github.com/Tib3rius/windowsprivchecker"
+    "https://github.com/Tib3rius/linuxprivchecker"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -282,8 +283,8 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp Seatbelt bloodyAD krbrelayx impacket PrecompiledBinaries SharpCollection BloodHound.py BloodHound donut powersploit system/windows/
-mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum system/linux/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp Seatbelt bloodyAD krbrelayx impacket PrecompiledBinaries SharpCollection BloodHound.py windowsprivchecker BloodHound donut powersploit system/windows/
+mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 
 
 
