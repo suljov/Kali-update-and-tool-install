@@ -274,6 +274,7 @@ repo_urls=(
     "https://github.com/jtmpu/PrecompiledBinaries"
     "https://github.com/Tib3rius/windowsprivchecker"
     "https://github.com/Tib3rius/linuxprivchecker"
+    "https://github.com/Tib3rius/Pentest-Cheatsheets"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -285,7 +286,7 @@ done
 
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp Seatbelt bloodyAD krbrelayx impacket PrecompiledBinaries SharpCollection BloodHound.py windowsprivchecker BloodHound donut powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
-
+mv Pentest-Cheatsheets misc/
 
 
 wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe
@@ -357,6 +358,7 @@ sudo mv /usr/bin/httpx /usr/bin/httpx-bak
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
+
 
 clear
 
