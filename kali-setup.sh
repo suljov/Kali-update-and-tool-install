@@ -383,6 +383,7 @@ sudo cp ReconRunner.sh /usr/local/bin/reconrunner
 cd ..
 rm -r reconrunner
 
+sudo apt autoremove
 
 clear
 
