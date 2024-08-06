@@ -380,7 +380,7 @@ git clone https://github.com/suljov/ReconRunner
 cd ReconRunner
 chmod +x install.sh && ./install.sh
 cd ..
-rm -r reconrunner
+sudo rm -r reconrunner
 
 sudo apt autoremove
 
