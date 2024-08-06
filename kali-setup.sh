@@ -378,8 +378,7 @@ sudo python3 -m pip install apachetomcatscanner
 
 git clone https://github.com/suljov/ReconRunner
 cd ReconRunner
-chmod +x ReconRunner.sh
-sudo cp ReconRunner.sh /usr/local/bin/reconrunner
+chmod +x install.sh && ./install.sh
 cd ..
 rm -r reconrunner
 
