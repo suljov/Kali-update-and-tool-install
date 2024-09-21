@@ -236,7 +236,6 @@ sudo rm -r NetExec
 
 python3 -m pipx install impacket
 sudo python3 -m pipx ensurepath
-sudo pipx install git+https://github.com/Tib3rius/AutoRecon.git
 
 # installs all the tools with apt
 sudo apt install "${tools_to_install[@]}" -y
