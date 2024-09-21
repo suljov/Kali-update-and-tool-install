@@ -310,8 +310,10 @@ sudo make build
 cd ..
 sudo cp kiterunner/dist/kr /usr/bin/kr
 
+git clone https://github.com/vladko312/SSTImap
 
-mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell kiterunner commix web/
+
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz SSTImap tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell kiterunner commix web/
 
 mkdir system/linux/dirtycow/
 
