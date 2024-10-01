@@ -315,6 +315,9 @@ git clone https://github.com/vladko312/SSTImap
 
 git clone https://github.com/josfaber/phpcc
 git clone https://github.com/frohoff/ysoserial
+cd ysoserial 
+wget https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar
+cd ..
 
 
 mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz SSTImap tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell kiterunner phpcc ysoserial commix web/
