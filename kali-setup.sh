@@ -226,6 +226,28 @@ sudo apt install python3 python3-pip
 
 
 
+sudo apt install gobuster -y 
+sudo apt install dirsearch -y 
+sudo apt install feroxbuster -y 
+sudo apt install seclists -y 
+sudo apt install openjdk-11-jdk -y 
+sudo apt install neo4j -y 
+sudo apt install bloodhound -y 
+sudo apt install subfinder -y 
+sudo apt install msfpc -y 
+sudo apt install assetfinder -y 
+sudo apt install set -y 
+sudo apt install kali-tools-top10 kali-tools-information-gathering kali-tools-vulnerability kali-tools-web kali-tools-passwords kali-tools-exploitation kali-tools-social-engineering kali-tools-sniffing-spoofing kali-tools-post-exploitation kali-linux-everything -y 
+sudo apt install nikto -y 
+sudo apt install smbclient -y 
+sudo apt install smbmap -y 
+sudo apt install httprobe -y 
+sudo apt install enum4linux-ng -y 
+sudo apt install exploitdb -y 
+sudo apt install remmina -y 
+sudo apt install wfuzz -y
+sudo apt install cupp -y
+
 
 python3 -m pipx install impacket
 sudo python3 -m pipx ensurepath
