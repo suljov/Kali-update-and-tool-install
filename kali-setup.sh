@@ -298,6 +298,7 @@ repo_urls=(
     "https://github.com/Tib3rius/linuxprivchecker"
     "https://github.com/Tib3rius/Pentest-Cheatsheets"
     "https://github.com/elweth-sec/CVE-2023-2255"
+    "https://github.com/61106960/adPEAS"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -307,7 +308,7 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 Seatbelt bloodyAD krbrelayx impacket PrecompiledBinaries SharpCollection BloodHound.py windowsprivchecker BloodHound donut powersploit system/windows/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 Seatbelt bloodyAD krbrelayx impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets misc/
 
