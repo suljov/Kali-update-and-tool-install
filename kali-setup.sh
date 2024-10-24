@@ -342,8 +342,10 @@ cd ysoserial
 wget https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar
 cd ..
 
+git clone https://github.com/SirBugs/endext
 
-mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz SSTImap tplmap XXEinjector jwt_tool HUNT LFImap wwwolf-php-webshell kiterunner phpcc ysoserial commix web/
+
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz SSTImap tplmap XXEinjector jwt_tool endext HUNT LFImap wwwolf-php-webshell kiterunner phpcc ysoserial commix web/
 
 mkdir system/linux/dirtycow/
 
