@@ -199,7 +199,6 @@ tools_to_install=(
     "flameshot"
     "code-oss"
     "libreoffice"
-    "subfinder"
     "enum4linux-ng"
     "cupp"
 )
@@ -393,7 +392,7 @@ go install github.com/projectdiscovery/katana/cmd/katana@latest
 clear
 
 go install github.com/ropnop/kerbrute@latest
-sudo mv /usr/bin/httpx /usr/bin/httpx-bak
+sudo apt purge httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
