@@ -247,7 +247,7 @@ sudo apt install wfuzz -y
 sudo apt install cupp -y
 
 
-
+sudo apr purge subfinder
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 
