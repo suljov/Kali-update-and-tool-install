@@ -423,6 +423,12 @@ sudo rm -r reconrunner
 
 sudo apt autoremove
 
+go install -v github.com/xm1k3/cent@latest
+#!/bin/bash
+
+
+
+
 
 
 git clone https://github.com/projectdiscovery/nuclei-templates.git .nuclei-templates
