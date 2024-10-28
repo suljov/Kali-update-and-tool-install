@@ -11,7 +11,7 @@ sleep 2
 
 
 clear
-
+mv .cent.yaml ~/.cent.yaml
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
 git clone https://github.com/jazzpizazz/zsh-aliases
@@ -423,9 +423,9 @@ sudo rm -r reconrunner
 
 sudo apt autoremove
 
-go install -v github.com/xm1k3/cent@latest
-#!/bin/bash
 
+go install -v github.com/xm1k3/cent@latest
+cent -p ~/.cent-nuclei-templates
 
 
 
