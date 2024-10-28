@@ -423,6 +423,12 @@ sudo rm -r reconrunner
 
 sudo apt autoremove
 
+
+
+git clone https://github.com/projectdiscovery/nuclei-templates.git .nuclei-templates
+nuclei -ud ~/.nuclei-templates
+
+
 clear
 
 
