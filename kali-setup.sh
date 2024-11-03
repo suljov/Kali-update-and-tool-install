@@ -381,6 +381,7 @@ make
 sudo make install
 cd ..
 sudo rm -r rtl8812au/
+go install github.com/tomnomnom/waybackurls@latest
 
 clear
 
