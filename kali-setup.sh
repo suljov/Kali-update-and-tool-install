@@ -429,7 +429,7 @@ go install -v github.com/xm1k3/cent@latest
 cent -p ~/.cent-nuclei-templates
 
 
-
+sudo wget https://raw.githubusercontent.com/wallarm/jwt-secrets/refs/heads/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.txt
 
 
 git clone https://github.com/projectdiscovery/nuclei-templates.git .nuclei-templates
