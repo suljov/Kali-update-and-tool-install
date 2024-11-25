@@ -19,6 +19,10 @@ mv zsh-aliases  ~/.zsh-aliases
 echo "source ~/.zsh-aliases/aliases.zsh" >> ~/.zshrc
 echo "source ~/.zsh-aliases/aliases.zsh" >> ~/.bashrc
 
+echo "alias copyme='xclip -sel clip'" >> ~/.zshrc
+echo "alias copyme='xclip -sel clip'" >> ~/.bashrc
+
+
 
 export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME
 export GOROOT=/usr/lib/go
