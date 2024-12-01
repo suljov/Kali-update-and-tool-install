@@ -431,6 +431,7 @@ sudo apt autoremove
 
 go install -v github.com/xm1k3/cent@latest
 cent -p ~/.cent-nuclei-templates
+go install github.com/BishopFox/sj@latest
 
 
 sudo wget https://raw.githubusercontent.com/wallarm/jwt-secrets/refs/heads/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.txt
