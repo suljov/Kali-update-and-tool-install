@@ -402,6 +402,7 @@ sudo apt purge httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
+go install -v github.com/projectdiscovery/urlfinder/cmd/urlfinder@latest
 
 
 clear
