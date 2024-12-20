@@ -447,6 +447,8 @@ clear
 
 echo "Tools and repositories cloned successfully."
 echo " "
+echo "Dont forget to use 'PimpMyKali'
+echo " "
 echo "Manual installs on several tools/depencies are neeed"
 echo " "
 echo "If Kali if in a VM like Virtualbox or VMware, dont forget to install the guest addition etc!"
