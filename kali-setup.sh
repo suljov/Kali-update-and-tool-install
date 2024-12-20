@@ -121,7 +121,7 @@ wget https://github.com/RustScan/RustScan/releases/download/2.2.3/rustscan_2.3.0
 sudo dpkg -i rustscan_2.3.0_amd64.deb
 sudo rm rustscan_2.3.0_amd64.deb
 
-wget https://github.com/ropnop/kerbrute/releases/latest/download/kerbrute_linux_amd64
+wget https://github.com/RustScan/RustScan/releases/download/2.3.0/rustscan_2.3.0_amd64.deb
 chmod +x kerbrute_linux_amd64
 sudo mv kerbrute_linux_amd64 /usr/bin/kerbrute
 
