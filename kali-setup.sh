@@ -117,7 +117,7 @@ wget https://download.sysinternals.com/files/SysinternalsSuite.zip
 mv linpeas_linux_amd64 linpeas.sh system/linux/
 mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe SysinternalsSuite.zip  winPEASx86.exe winPEASany.exe RunasCs.zip FullPowers.exe  system/windows/
 
-wget https://github.com/RustScan/RustScan/releases/download/2.2.3/rustscan_2.3.0_amd64.deb
+wget https://github.com/RustScan/RustScan/releases/download/2.3.0/rustscan_2.3.0_amd64.deb
 sudo dpkg -i rustscan_2.3.0_amd64.deb
 sudo rm rustscan_2.3.0_amd64.deb
 
