@@ -108,7 +108,7 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx64
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx86.exe 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany.exe
 wget https://github.com/antonioCoco/RunasCs/releases/latest/download/RunasCs.zip
-https://github.com/itm4n/FullPowers/releases/latest/download/FullPowers.exe
+wget https://github.com/itm4n/FullPowers/releases/latest/download/FullPowers.exe
 
 pip3 install xcat
 
