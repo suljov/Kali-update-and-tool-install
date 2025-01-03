@@ -387,6 +387,14 @@ cd ..
 sudo rm -r rtl8812au/
 go install github.com/tomnomnom/waybackurls@latest
 go install github.com/tomnomnom/gf@latest
+go install github.com/tomnomnom/qsreplace@latest
+
+git clone https://github.com/devanshbatham/paramspider
+cd paramspider
+pipx install .
+cd ..
+rm -r paramspider
+
 
 clear
 
