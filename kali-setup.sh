@@ -85,7 +85,11 @@ get https://raw.githubusercontent.com/dafthack/MSOLSpray/refs/heads/master/MSOLS
 git clone https://github.com/yuyudhn/AzSubEnum cloud/Azure/AzSubEnum
 git clone https://github.com/0xZDH/o365spray cloud/Azure/o365spray
 
-
+git clone https://github.com/ly4k/Certipy.git
+cd certipy
+python3 setup.py install --user
+cd .. 
+rm -r Certipy
 
 cd c2
 
