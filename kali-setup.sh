@@ -76,6 +76,16 @@ mkdir system/windows
 mkdir pivoting
 mkdir misc
 mkdir c2
+mkdir cloud
+mkdir cloud/Azure
+mkdir cloud/AWS
+
+
+get https://raw.githubusercontent.com/dafthack/MSOLSpray/refs/heads/master/MSOLSpray.ps1 -o cloud/Azure/MSOLSpray.ps1
+git clone https://github.com/yuyudhn/AzSubEnum cloud/Azure/AzSubEnum
+git clone https://github.com/0xZDH/o365spray cloud/Azure/o365spray
+
+
 
 cd c2
 
