@@ -83,8 +83,6 @@ mkdir cloud/AWS
 wget https://raw.githubusercontent.com/rootsecdev/Azure-Red-Team/master/Tokens/exfil_exchange_mail.py -O tools/cloud/Azure/exfil_exchange_mail.py
 wget https://raw.githubusercontent.com/dafthack/MFASweep/master/MFASweep.ps1 -O tools/cloud/Azure/MFASweep.ps1
 wget https://raw.githubusercontent.com/dafthack/MSOLSpray/refs/heads/master/MSOLSpray.ps1 -O cloud/Azure/MSOLSpray.ps1
-git clone https://github.com/yuyudhn/AzSubEnum cloud/Azure/AzSubEnum
-git clone https://github.com/0xZDH/o365spray cloud/Azure/o365spray
 
 git clone https://github.com/ly4k/Certipy.git
 cd Certipy
@@ -322,6 +320,10 @@ repo_urls=(
     "https://github.com/elweth-sec/CVE-2023-2255"
     "https://github.com/61106960/adPEAS"
     "https://github.com/fa-rrel/JS-Scanner"
+    "https://github.com/f-bader/TokenTacticsV2"
+    "https://github.com/yuyudhn/AzSubEnum"
+    "https://github.com/dievus/Oh365UserFinder"
+    "https://github.com/0xZDH/o365spray cloud/Azure/o365spray"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -334,6 +336,7 @@ done
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 Seatbelt bloodyAD krbrelayx impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets misc/
+mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray cloud/Azure
 
 
 wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe
