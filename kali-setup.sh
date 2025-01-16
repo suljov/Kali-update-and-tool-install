@@ -80,6 +80,7 @@ mkdir cloud
 mkdir cloud/Azure
 mkdir cloud/AWS
 
+wget https://raw.githubusercontent.com/rootsecdev/Azure-Red-Team/master/Tokens/exfil_exchange_mail.py -O tools/cloud/Azure/exfil_exchange_mail.py
 wget https://raw.githubusercontent.com/dafthack/MFASweep/master/MFASweep.ps1 -O tools/cloud/Azure/MFASweep.ps1
 wget https://raw.githubusercontent.com/dafthack/MSOLSpray/refs/heads/master/MSOLSpray.ps1 -O cloud/Azure/MSOLSpray.ps1
 git clone https://github.com/yuyudhn/AzSubEnum cloud/Azure/AzSubEnum
