@@ -481,6 +481,7 @@ sudo wget https://raw.githubusercontent.com/wallarm/jwt-secrets/refs/heads/maste
 git clone https://github.com/projectdiscovery/nuclei-templates.git .nuclei-templates
 nuclei -ud ~/.nuclei-templates
 
+wget https://raw.githubusercontent.com/yok4i/BloodHound-Queries/main/customqueries.json -O ~/.config/bloodhound/customqueries.json
 
 clear
 
