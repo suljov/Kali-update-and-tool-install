@@ -468,8 +468,9 @@ chmod +x install.sh && ./install.sh
 cd ..
 sudo rm -r reconrunner
 
-sudo apt autoremove
+sudo apt autoremove -y
 
+pipx install smbclientng
 
 go install -v github.com/xm1k3/cent@latest
 cent -p ~/.cent-nuclei-templates
