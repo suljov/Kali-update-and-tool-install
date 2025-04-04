@@ -413,6 +413,8 @@ git clone https://github.com/Dewalt-arch/pimpmykali
 #sudo rm -r pimpmykali
 
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install github.com/hahwul/jwt-hack@latest
+sudo wget https://raw.githubusercontent.com/wallarm/jwt-secrets/refs/heads/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.txt
 
 sudo apt install realtek-rtl88xxau-dkms -y
 sudo apt install dkms -y
