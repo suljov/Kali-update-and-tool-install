@@ -430,6 +430,9 @@ go install github.com/tomnomnom/qsreplace@latest
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 pipx install arjun
 
+sudo apt install npm
+npm install n8n
+
 git clone https://github.com/devanshbatham/paramspider
 cd paramspider
 pipx install .
