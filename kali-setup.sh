@@ -431,7 +431,7 @@ go install github.com/projectdiscovery/katana/cmd/katana@latest
 pipx install arjun
 
 sudo apt install npm
-npm install n8n
+npm install n8n -g
 
 git clone https://github.com/devanshbatham/paramspider
 cd paramspider
