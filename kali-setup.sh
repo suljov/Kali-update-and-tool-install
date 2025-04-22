@@ -117,7 +117,7 @@ cd ..
 sudo wget https://raw.githubusercontent.com/payloadbox/xss-payload-list/master/Intruder/xss-payload-list.txt -O /usr/share/wordlists/xss-payload-list.txt
 sudo wget https://raw.githubusercontent.com/payloadbox/ssti-payloads/master/Intruder/ssti-payloads.txt -O /usr/share/wordlists/ssti-payloads.txt
 sudo wget https://raw.githubusercontent.com/payloadbox/ssti-payloads/master/Intruder/ssti-urlencoded-payloads.txt -O /usr/share/wordlists/ssti-urlencoded-payloads.txt
-sudo wget https://raw.githubusercontent.com/suljov/One-API-to-rule-them-all/main/API-RuleThemAll.txt -O /usr/share/wordlists/API-RuleThemAll.txt
+sudo wget https://raw.githubusercontent.com/suljov/One-API-to-rule-them-all/refs/heads/main/API-RuleThemAll.txt -O /usr/share/wordlists/API-RuleThemAll.txt
 
 
 
