@@ -507,7 +507,7 @@ clear
 
 echo "Tools and repositories cloned successfully."
 echo " "
-echo "Dont forget to manually use 'PimpMyKali'
+echo "Dont forget to manually use 'PimpMyKali'"
 echo " "
 echo "Manual installs on several tools/depencies are neeed"
 echo " "
