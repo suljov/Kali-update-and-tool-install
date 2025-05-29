@@ -502,6 +502,8 @@ sudo cp creds /usr/bin/ && sudo chmod +x /usr/bin/creds
 cd ..
 sudo rm -r DefaultCreds-cheat-sheet
 
+sudo apt install obsidian
+
 clear
 
 
