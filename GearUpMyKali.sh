@@ -389,8 +389,12 @@ cd ..
 
 git clone https://github.com/SirBugs/endext
 
+wget https://github.com/steverobbins/magescan/releases/download/v1.12.9/magescan.phar
 
-mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz SSTImap tplmap XXEinjector jwt_tool endext HUNT LFImap wwwolf-php-webshell JS-Scanner kiterunner phpcc ysoserial commix web/
+
+
+
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz SSTImap tplmap XXEinjector jwt_tool endext HUNT LFImap magescan.phar wwwolf-php-webshell JS-Scanner kiterunner phpcc ysoserial commix web/
 
 mkdir system/linux/dirtycow/
 
