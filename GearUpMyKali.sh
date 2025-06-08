@@ -2,7 +2,7 @@
 
 
 clear
-clear
+clearhttp://10.10.10.14/
 echo "Please enter your username:"
 read username
 clear
@@ -428,6 +428,7 @@ go install github.com/tomnomnom/waybackurls@latest
 go install github.com/tomnomnom/gf@latest
 go install github.com/tomnomnom/qsreplace@latest
 go install github.com/projectdiscovery/katana/cmd/katana@latest
+go install github.com/bitquark/shortscan/cmd/shortscan@latest
 pipx install arjun
 
 sudo apt install npm
