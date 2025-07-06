@@ -94,11 +94,7 @@ wget https://cdn.binary.ninja/installers/binaryninja_free_linux.zip
 unzip binaryninja_free_linux.zip
 mv binaryninja reverse-engineering/ 
 
-git clone https://github.com/ly4k/Certipy.git
-cd Certipy
-python3 setup.py install --user
-cd .. 
-sudo rm -r Certipy
+pipx install certipy-ad
 
 cd c2
 
